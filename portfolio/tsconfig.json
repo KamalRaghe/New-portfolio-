@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/components/Footer.js", "app/components/Experience.js", "app/components/About.js"  ],
   "exclude": ["node_modules"]
 }

@@ -1,9 +1,15 @@
 "use client";
+const scrollToSection = (
+) => {
+  e.preventDefault();
+
+  document.getElementById(id)?.scrollIntoView({
+    behavior: "smooth",
+  });
+};
 
 export default function Navbar() {
   const scrollToSection = (
-    e: React.MouseEvent<HTMLAnchorElement>,
-    id: string
   ) => {
     e.preventDefault();
 

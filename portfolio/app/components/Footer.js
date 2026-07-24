@@ -9,6 +9,7 @@ export default function Footer() {
 
         <div className="flex gap-6">
           <a
+            style={{color:"blue"}}
             href="https://github.com/KamalRaghe"
             target="_blank"
             rel="noopener noreferrer"
@@ -17,6 +18,7 @@ export default function Footer() {
           </a>
 
           <a
+            style={{color:"blue"}}
             href="https://www.linkedin.com/in/kamal-raghe-aa7a922b3"
             target="_blank"
             rel="noopener noreferrer"

@@ -19,22 +19,27 @@ export default function Contact() {
         opportunities, including full-time, contract, and remote roles.
       </p>
 
-      <div className="mt-10 flex flex-wrap justify-center gap-4">
-        {/* <a
-          href="mailto:kamal.raghe33@gmail.com"
-          className="rounded-full bg-lime-400 px-6 py-3 font-medium text-black transition hover:bg-lime-300"
-          aria-label="Email Kamal"
-        >
-          Email Me
-        </a>
+      {/* Contact Information */}
+      <div className="mt-10 space-y-3 text-lg">
+        <p>
+          <span className="font-semibold">Email:</span>{" "}
+          <a
+            href="mailto:kamal.raghe33@gmail.com"
+            className="text-blue-400 hover:underline"
+          >
+            kamal.raghe33@gmail.com
+          </a>
+        </p>
 
-        <a
-          href="tel:+14374881840"
-          className="rounded-full border border-zinc-700 px-6 py-3 transition hover:border-zinc-500 hover:bg-zinc-900"
-          aria-label="Call Kamal"
-        >
-          Call Me
-        </a> */}
+        <p>
+          <span className="font-semibold">Phone:</span>{" "}
+          <a
+            href="tel:+14374881840"
+            className="text-blue-400 hover:underline"
+          >
+            +1 (437) 488-1840
+          </a>
+        </p>
       </div>
     </section>
   );

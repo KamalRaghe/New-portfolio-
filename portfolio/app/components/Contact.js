@@ -20,7 +20,7 @@ export default function Contact() {
       </p>
 
       <div className="mt-10 flex flex-wrap justify-center gap-4">
-        <a
+        {/* <a
           href="mailto:kamal.raghe33@gmail.com"
           className="rounded-full bg-lime-400 px-6 py-3 font-medium text-black transition hover:bg-lime-300"
           aria-label="Email Kamal"
@@ -34,7 +34,7 @@ export default function Contact() {
           aria-label="Call Kamal"
         >
           Call Me
-        </a>
+        </a> */}
       </div>
     </section>
   );

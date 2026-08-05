@@ -21,9 +21,9 @@ const experience = [
       "Built a real-time learning platform using Next.js and Firebase."
   },
   {
-    year: "2024 - 2025",
-    company: "Frontend Simplified",
-    role: "Frontend Developer Trainee",
+    year: "2019 - 2021",
+    company: "Kumon",
+    role: "Math tutor",
     description:
       "Built projects using React, APIs and modern frontend workflows."
   }

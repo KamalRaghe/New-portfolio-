@@ -22,7 +22,7 @@ export default function Projects() {
             </p>
 
             <div  className="mt-2 text-3xl">
-              <div className="flex">
+              <div className="flex" style={{gap:"15px"}}>
                 <Link style={{color:"#0000EE"}} href={project.link} ><h3>{project.title}</h3></Link>
                 <button className="github-btn ">
                   <Link href={project.git} >

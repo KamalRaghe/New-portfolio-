@@ -23,7 +23,7 @@ export const projects = [
     git:"https://github.com/KamalRaghe/Advanced-Virtual-Internship-2-/tree/master",
     year: "2024",
     description:
-      "Marketplace with Firebase ownership tracking.",
-    tech: ["React", "Firebase"],
+      "Built a responsive online bookstore",
+    tech: ["React", "Firebase",'Vercel'],
   },
 ];

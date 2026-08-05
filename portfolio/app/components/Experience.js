@@ -3,7 +3,7 @@ const experience = [
     year: "2025 - Present",
     company: "Nile Academy",
     role: "Math Olympiad Instructor",
-    link:'',
+    link:'https://www.mathimprove.com/',
     git:"https://github.com/KamalRaghe/Math-Improved",
     description:
       "Teaching advanced problem-solving and Olympiad mathematics."
@@ -27,7 +27,7 @@ const experience = [
   {
     year: "2019 - 2021",
     company: "Kumon",
-    role: "Math tutor",
+    role: "Math Tutor",
     description:
       "Tutored students in mathematics through individualized instruction and guided practice."
   }

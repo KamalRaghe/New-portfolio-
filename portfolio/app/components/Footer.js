@@ -9,14 +9,15 @@ export default function Footer() {
 
         <div className="flex gap-6">
           <a
-            style={{color:"blue"}}
-            href="https://docs.google.com/document/d/14ueBEUc4GZz7rTcfOFElvfkuB9aJwVXcaNZhu79RPSM/edit?usp=drive_link"
+            style={{color:"#50A2FF"}}
+            href="https://drive.google.com/file/d/1NvBmqRH7hPVu5lGbQv7YnKfWBjMX2_C1/view?usp=drive_link"
+            target="_blank"
             rel="noopener noreferrer"
           >
             Resume
           </a>
           <a
-            style={{color:"blue"}}
+            style={{color:"#50A2FF"}}
             href="https://github.com/KamalRaghe"
             target="_blank"
             rel="noopener noreferrer"
@@ -25,7 +26,7 @@ export default function Footer() {
           </a>
 
           <a
-            style={{color:"blue"}}
+            style={{color:"#50A2FF"}}
             href="https://www.linkedin.com/in/kamal-raghe-aa7a922b3"
             target="_blank"
             rel="noopener noreferrer"

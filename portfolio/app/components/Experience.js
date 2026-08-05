@@ -7,7 +7,7 @@ const experience = [
       "Teaching advanced problem-solving and Olympiad mathematics."
   },
   {
-    year: "2025 - Present",
+    year: "2026",
     company: "Skinstric",
     role: "Frontend Engineer Intern",
     description:

@@ -3,8 +3,6 @@ const experience = [
     year: "2025 - Present",
     company: "Nile Academy",
     role: "Math Olympiad Instructor",
-    link:'https://www.mathimprove.com/',
-    git:"https://github.com/KamalRaghe/Math-Improved",
     description:
       "Teaching advanced problem-solving and Olympiad mathematics."
   },
@@ -12,8 +10,6 @@ const experience = [
     year: "2026",
     company: "Skinstric",
     role: "Frontend Engineer Intern",
-    link:'https://skinstric-git-master-kamalraghes-projects.vercel.app/',
-    git:'https://github.com/KamalRaghe/Skinstric',
     description:
       "Built and shipped AI-powered image analysis interfaces."
   },
@@ -53,9 +49,9 @@ export default function Experience() {
               {item.year}
             </p>
 
-            <h3 className="mt-2 text-2xl font-semibold">
-              {item.company}
-            </h3>
+            <div className="mt-2 text-2xl font-semibold">
+              <h3>{item.company}</h3>
+            </div>
 
             <p className="mt-1 text-lime-400">
               {item.role}

@@ -28,3 +28,26 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.github-btn {
+  background-color:#ffffff;
+  color: black;
+  border: none;
+  padding: 2px 2px;
+  margin-right: 120px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.github-btn:hover {
+  background-color: #3b434b;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.github-btn:active {
+  transform: translateY(0);
+}

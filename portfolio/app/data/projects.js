@@ -1,20 +1,26 @@
 export const projects = [
   {
     title: "Math Improve",
+    link:'https://www.mathimprove.com/',
+    git:"https://github.com/KamalRaghe/Math-Improved",
     year: "2024 - Present",
     description:
       "Real-time math learning platform with multiplayer game mode.",
-    tech: ["Next.js", "TypeScript", "Firebase"],
+    tech: ['React',"Next.js", "Firebase", 'Vercel'],
   },
   {
     title: "Skinstric",
-    year: "2024 - 2025",
+    link:'https://skinstric-git-master-kamalraghes-projects.vercel.app/',
+    git:'https://github.com/KamalRaghe/Skinstric',
+    year: "2026",
     description:
       "AI-powered facial analysis application shipped to production.",
-    tech: ["React", "Next.js", "TypeScript"],
+    tech: ["React", "Next.js", "Vercel"],
   },
   {
-    title: "NFT Marketplace",
+    title: "Book store",
+    link:"",
+    git:"",
     year: "2024",
     description:
       "Marketplace with Firebase ownership tracking.",

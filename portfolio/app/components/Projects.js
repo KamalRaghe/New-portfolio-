@@ -1,4 +1,5 @@
 import { projects } from "../data/projects";
+import Link from "next/link";
 
 export default function Projects() {
   return (
@@ -10,7 +11,7 @@ export default function Projects() {
         Selected Work
       </h2>
 
-      <div className="space-y-6">
+      <div className="space-y-6" style={{cursor:"pointer"}}>
         {projects.map((project) => (
           <div
             key={project.title}
@@ -20,9 +21,16 @@ export default function Projects() {
               {project.year}
             </p>
 
-            <h3 className="mt-2 text-3xl">
-              {project.title}
-            </h3>
+            <div  className="mt-2 text-3xl">
+              <div className="flex">
+                <Link style={{color:"#0000EE"}} href={project.link} ><h3>{project.title}</h3></Link>
+                <button className="github-btn ">
+                  <Link href={project.git} >
+                    GitHub
+                  </Link>
+                </button>
+              </div>
+            </div>
 
             <p className="mt-4 text-zinc-400">
               {project.description}

@@ -1,16 +1,7 @@
 "use client";
-const scrollToSection = (
-) => {
-  e.preventDefault();
-
-  document.getElementById(id)?.scrollIntoView({
-    behavior: "smooth",
-  });
-};
 
 export default function Navbar() {
-  const scrollToSection = (
-  ) => {
+  const scrollToSection = (e, id) => {
     e.preventDefault();
 
     document.getElementById(id)?.scrollIntoView({
@@ -45,9 +36,7 @@ export default function Navbar() {
 
           <a
             href="#experience"
-            onClick={(e) =>
-              scrollToSection(e, "experience")
-            }
+            onClick={(e) => scrollToSection(e, "experience")}
           >
             Experience
           </a>

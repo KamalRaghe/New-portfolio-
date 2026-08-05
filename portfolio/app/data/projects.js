@@ -19,8 +19,8 @@ export const projects = [
   },
   {
     title: "Book store",
-    link:"",
-    git:"",
+    link:"https://advanced-virtual-internship-2.vercel.app/",
+    git:"https://github.com/KamalRaghe/Advanced-Virtual-Internship-2-/tree/master",
     year: "2024",
     description:
       "Marketplace with Firebase ownership tracking.",

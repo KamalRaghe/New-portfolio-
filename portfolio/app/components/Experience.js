@@ -3,6 +3,8 @@ const experience = [
     year: "2025 - Present",
     company: "Nile Academy",
     role: "Math Olympiad Instructor",
+    link:'',
+    git:"https://github.com/KamalRaghe/Math-Improved",
     description:
       "Teaching advanced problem-solving and Olympiad mathematics."
   },
@@ -10,6 +12,8 @@ const experience = [
     year: "2026",
     company: "Skinstric",
     role: "Frontend Engineer Intern",
+    link:'https://skinstric-git-master-kamalraghes-projects.vercel.app/',
+    git:'https://github.com/KamalRaghe/Skinstric',
     description:
       "Built and shipped AI-powered image analysis interfaces."
   },
@@ -25,7 +29,7 @@ const experience = [
     company: "Kumon",
     role: "Math tutor",
     description:
-      "Built projects using React, APIs and modern frontend workflows."
+      "Tutored students in mathematics through individualized instruction and guided practice."
   }
 ];
 
